@@ -1,1 +1,128 @@
-asdf
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100vw;
+  height: 75px;
+  background-color: black;
+}
+.nav{
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.space{
+  margin-left: 10vw;
+}
+
+.initialBox{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10vw;
+}
+
+.initial{
+  height: 50px;
+  width: auto;
+  margin: 10px;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.secondaryBox{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.secondary{
+  height: 50px;
+  width: auto;
+  margin: 10px;
+  font-size: 12px;
+  color: #8b939b;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main{
+  height: 75%;
+  width: 100vw;
+}
+
+.topBox{
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.back{
+  height: 100%;
+  width: 100vw;
+  bottom: 0;
+}
+
+.sidenote{
+  height: 125px;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  bottom: 19vh;
+  background-color: rgb(11,11,11, .5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 33px 10vw;
+}
+
+.sidenoteNote{
+  height: 100%;
+  width: 70%;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+}
+
+.sidenoteButton{
+  height: 40px;
+  width: 200px;
+  background-color: white;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomBox{
+  height: 10vh;
+  width: 100vw;
+  background-color: #20272b;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggles{
+  width: 300px;
+  height: 100%;
+  border-left: 1px solid #35383a;
+  border-right: 1px solid #35383a;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
